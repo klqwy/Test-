@@ -1,0 +1,11 @@
+<odoo>
+    <record id="action_project_estimation_report"
+            model="ir.actions.report">
+        <field name="name">Project Estimation</field>
+        <field name="model">project.estimation</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">
+            project_estimation_management.estimation_template
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,8 @@
+<odoo>
+    <record id="seq_project_estimation" model="ir.sequence">
+        <field name="name">Project Estimation</field>
+        <field name="code">project.estimation</field>
+        <field name="prefix">EST/</field>
+        <field name="padding">4</field>
+    </record>
+</odoo>

@@ -1,0 +1,47 @@
+<odoo>
+    <menuitem id="menu_project_estimation_root"
+              name="Project Estimation"/>
+
+    <menuitem id="menu_project_estimation"
+              name="Estimations"
+              parent="menu_project_estimation_root"
+              action="action_project_estimation"/>
+
+
+
+
+    <menuitem id="menu_project_estimation_configuration"
+              name="Configuration"
+              parent="menu_project_estimation_root"
+              sequence="50"/>
+
+    <menuitem id="menu_project_currency"
+              name="Currency"
+              parent="menu_project_estimation_configuration"
+              action="action_project_currency"
+              sequence="3"/>
+
+    <menuitem id="menu_project_industry"
+              name="Industry"
+              parent="menu_project_estimation_configuration"
+              action="action_project_industry"
+              sequence="4"/>
+
+    <menuitem id="menu_project_resource"
+              name="Resource Type"
+              parent="menu_project_estimation_configuration"
+              action="action_project_resource"
+              sequence="2"/>
+
+    <menuitem id="menu_project_estimation_customer"
+              name="Customer"
+              parent="menu_project_estimation_configuration"
+              action="action_project_estimation_customer"
+              sequence="1"/>
+
+     <menuitem id="menu_module_estimation"
+              name="Modules"
+              parent="menu_project_estimation_configuration"
+              action="action_project_module_master"
+              sequence="7"/>
+</odoo>

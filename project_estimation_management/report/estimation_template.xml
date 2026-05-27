@@ -1,0 +1,31 @@
+<odoo>
+    <template id="estimation_template">
+        <t t-call="web.external_layout">
+            <div class="page">
+                <h2>Project Estimation</h2>
+
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Resource</th>
+                            <th>Hours</th>
+                            <th>Total Hours</th>
+                            <th>Cost USD</th>
+                            <th>Price INR</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr t-foreach="doc.line_ids" t-as="line">
+                            <td><span t-field="line.resource_type"/></td>
+                            <td><span t-field="line.resource_hours"/></td>
+                            <td><span t-field="line.total_hours"/></td>
+                            <td><span t-field="line.cost_usd"/></td>
+                            <td><span t-field="line.price_inr"/></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </t>
+    </template>
+</odoo>

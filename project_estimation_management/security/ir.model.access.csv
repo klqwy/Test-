@@ -1,0 +1,15 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+access_project_estimation_user,project.estimation.user,model_project_estimation,base.group_user,1,1,1,0
+access_project_estimation_line_user,project.estimation.line.user,model_project_estimation_line,base.group_user,1,1,1,0
+access_project_resource_user,project.resource.user,model_project_resource,base.group_user,1,1,1,0
+
+access_project_estimation_admin,project.estimation.admin,model_project_estimation,base.group_system,1,1,1,1
+access_project_estimation_line_admin,project.estimation.line.admin,model_project_estimation_line,base.group_system,1,1,1,1
+access_project_resource_admin,project.resource.admin,model_project_resource,base.group_system,1,1,1,1
+access_project_actual_estimation_line_user,project.actual.estimation.line.user,model_project_actual_estimation_line,base.group_user,1,1,1,0
+access_project_actual_estimation_line_admin,project.actual.estimation.line.admin,model_project_actual_estimation_line,base.group_system,1,1,1,1
+access_project_industry_user,project.industry.user,model_project_industry,base.group_user,1,1,1,0
+access_project_industry_admin,project.industry.admin,model_project_industry,base.group_system,1,1,1,1
+access_project_module_master_user,project.module.master.user,model_project_module_master,base.group_user,1,1,1,1
+access_project_estimation_module_line_user,project.estimation.module.line.user,model_project_estimation_module_line,base.group_user,1,1,1,1
